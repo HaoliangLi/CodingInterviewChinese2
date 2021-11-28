@@ -1,10 +1,13 @@
 /*** 
  * @Date: 2021-11-27 17:36:41
  * @LastEditors: zjulhl
- * @LastEditTime: 2021-11-27 18:00:29
+ * @LastEditTime: 2021-11-28 13:25:47
  * @Description: 
  * @FilePath: /CodingInterviewChinese2/09_QueueWithTwoStacks/main09.cpp
  */
+#include <stack>
+using namespace std;
+
 class CQueue
 {
     stack<int> stack1, stack2;
